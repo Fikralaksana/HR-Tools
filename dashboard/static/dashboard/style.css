@@ -1,0 +1,39 @@
+/* Navbar */
+.navbar {
+  margin:0;
+  padding: 20px 0px;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: rgb(85, 85, 85);
+  height: 100%;
+  width:200px;
+}
+.navbar h1 {
+  color:wheat;
+}
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #575757;
+}
+
+.navbar ul li a{
+  display:block;
+  padding: 20px;
+  color:black;
+  text-decoration: none;
+ 
+}
+.navbar ul li a:hover{
+  background-color: rgb(36, 36, 36);
+  color:honeydew;
+}
+
+.navbar ul li a:active{
+  background-color: rgb(36, 36, 36);
+  color:honeydew;
+}
+
